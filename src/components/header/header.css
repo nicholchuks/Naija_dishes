@@ -1,0 +1,30 @@
+.nav_mobile {
+  display: none;
+}
+
+.header {
+  /* max-width: 1440px; */
+  height: 100px;
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.nav_desktop {
+  width: 100%;
+  height: 100%;
+}
+
+.nav_desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_desktop .nav_left {
+  display: flex;
+}
+
+.nav_left .menu_lists {
+  display: flex;
+  align-items: center;
+}
