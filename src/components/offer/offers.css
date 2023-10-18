@@ -1,0 +1,44 @@
+.offers {
+  background-color: #1ce783;
+  color: black;
+  height: 74px;
+
+  padding: 0 64px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+  font-family: Graphik Web, Graphik, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.offer h5 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.32;
+  text-transform: none;
+}
+
+.offer h5 span a {
+  line-height: 23.76px;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-weight: 800;
+  transition: 0.2s ease-in-out;
+}
+
+.offer h5 span a:hover {
+  color: #fff;
+}
+
+.offer p {
+  color: black;
+  opacity: 0.8;
+  font-size: 9.5px;
+  line-height: 12.54px;
+  position: relative;
+}
