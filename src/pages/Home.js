@@ -1,7 +1,6 @@
 import React from "react";
-import Hero from "../components/hero/Hero";
-import Food from "../components/food/Food";
-import Footer from "../components/footer/Footer";
+// import Hero from "../components/hero/Hero";
+// import Footer from "../components/footer/Footer";
 
 // BiHomeAlt;
 // FiHome;
@@ -16,9 +15,8 @@ import Footer from "../components/footer/Footer";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <Food />
-      <Footer />
+      {/* <Hero /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

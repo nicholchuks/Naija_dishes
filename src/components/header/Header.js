@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import logo from "../../assets/img/logo.png";
 import { NavLink } from "react-router-dom";
 
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -12,7 +11,7 @@ const Header = () => {
     <header className="header">
       <div className="nav_desktop">
         <div className="nav_left">
-          <img src={logo} width="122px" height="29.83px" alt="logo" />
+        
 
           <ul className="menu_lists">
             <li>

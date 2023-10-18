@@ -1,0 +1,108 @@
+.live-sports {
+  background: url("/src/assets/img/original.jpg") no-repeat center center /
+    cover;
+  position: relative;
+  height: 800px;
+  background-color: #000;
+  color: #fff;
+}
+.live-sports-container {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  max-width: 500px;
+}
+
+.TabButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 16px;
+  
+}
+
+.TabButtons__tab {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: "Graphik Web",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  position: relative;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.TabButtons__tab {
+  position: relative;
+}
+
+.TabButtons__tab::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.TabButtons__tab.--active::after {
+  opacity: 1;
+}
+
+
+.text-li {
+  padding-top: 20px;
+  font-family: "Graphik Web",sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+
+
+.sub-text {
+  max-width: 450px;
+  margin-top: 18px;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.live-sports-logos {
+  width: 300px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.live-sports-logos > div {
+  background: url('../../assets/img/network-logo-bg.png') no-repeat 
+  center center / cover;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-sports-logos img {
+  width: 40px;
+}
+
+.terms {
+  font-size: 10px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
